@@ -88,9 +88,11 @@ Here is a snapshot of final dataset -
 An LSTM model is being used for this dataset. There is an input layer with 100 units, a hidden layer with 100 units, a hidden layer with 50 units and an output layer. Each LSTM layer is followed by a dropout layer with a value of 0.2, which helps to perform regularization and thereby reduce overfitting the model to the training data. Here, 0.2 indicates that 20% of the values will be randomluy sampled and dropped, thereby preventing the model from "over" learning the features of the training data.
 
 A summary of the model can be seen below - 
+
 ![model_summary](diagrams/model_summary.png)
 
 Given below is the model architecture - 
+
 ![model](diagrams/model.png)
 
 
