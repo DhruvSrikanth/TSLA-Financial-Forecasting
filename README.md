@@ -59,9 +59,9 @@ master branch/
 
 - README.md - contains a walkthrough of the project given in this repository.
 - Proposal folder - contains the project proposal submitted in pdf and pages format.
-- Pitch folder - contains the project pitch submitted and presented in pdf and keynote format.
+- Pitch folder - contains the project pitch submitted and presented in powerpoint and keynote format.
 - Report folder - contains the project final report submitted in pdf and pages format.
-- Final Presentation folder - contains the project final presentation slides submitted and presented in pdf and keynote format.
+- Final Presentation folder - contains the project final presentation slides submitted and presented in powerpoint and keynote format.
 - Create_Stocks_Dataset.ipynb - notebook on time slicing done on the stock data. (30 lines of code)
 - Create_and_Merge_Twitter_Dataset.ipynb - notebook to preprocess twitter data (clean and compute sentiment of tweets) and merge with stocks data. (112 lines of code)
 - Feature_Engineering.ipynb - notebook to feature engineer columns in the dataset and explore trends between feature engineered vectors and stock information. (109 lines of code)
