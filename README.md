@@ -19,6 +19,12 @@ master branch/
 ├── Pitch/ 
 	├── Financial Modeling Project Pitch - Dhruv Srikanth.pptx 
 	└── Financial Modeling Project Pitch - Dhruv Srikanth.key 
+├── Report/ 
+	├── Applied Data Analysis Project Final Report - Dhruv Srikanth.pdf 
+	└── Applied Data Analysis Project Final Report - Dhruv Srikanth.pages 
+├── Final Presentation/ 
+	├── Financial Modeling Project Final Presentation - Dhruv Srikanth.pptx 
+	└── Financial Modeling Project Final Presentation - Dhruv Srikanth.key 
 ├── Guidelines/ 
 	└── Project Guidelines.pdf 
 └── src/ 
@@ -54,6 +60,8 @@ master branch/
 - README.md - contains a walkthrough of the project given in this repository.
 - Proposal folder - contains the project proposal submitted in pdf and pages format.
 - Pitch folder - contains the project pitch submitted and presented in pdf and keynote format.
+- Report folder - contains the project final report submitted in pdf and pages format.
+- Final Presentation folder - contains the project final presentation slides submitted and presented in pdf and keynote format.
 - Create_Stocks_Dataset.ipynb - notebook on time slicing done on the stock data. (30 lines of code)
 - Create_and_Merge_Twitter_Dataset.ipynb - notebook to preprocess twitter data (clean and compute sentiment of tweets) and merge with stocks data. (112 lines of code)
 - Feature_Engineering.ipynb - notebook to feature engineer columns in the dataset and explore trends between feature engineered vectors and stock information. (109 lines of code)
@@ -69,6 +77,7 @@ master branch/
 Note - If a file or folder is not listed above, it is because it is self explanatory from the directory structure provided above, and its file name.
 
 ### Data:
+
 - TSLA_stock.csv and all files present in the Elon_Musk_tweets contain the stock information (by day) and Elon Musk's twitter activity for a period of 10 years, between 2010 and 2020. This is all raw data.
 - Bound_TSLA.csv is a result of running the Create_Stocks_Dataset.ipynb notebook and contains the stock information restricted to a period of exactly 10 years.
 
