@@ -78,7 +78,8 @@ Note - If a file or folder is not listed above, it is because it is self explana
 
 ### Data:
 
-- TSLA_stock.csv and all files present in the Elon_Musk_tweets contain the stock information (by day) and Elon Musk's twitter activity for a period of 10 years, between 2010 and 2020. This is all raw data.
+- TSLA_stock.csv and all files present in the Elon_Musk_tweets contain the stock information (by day) and Elon Musk's twitter activity respectively, for a period of 10 years, between 2010 and 2020. This is all raw data. Stock information can be found [here](https://www.kaggle.com/timoboz/tesla-stock-data-from-2010-to-2020) and twitter data can be found [here](https://www.kaggle.com/ayhmrba/elon-musk-tweets-2010-2021).
+
 - Bound_TSLA.csv is a result of running the Create_Stocks_Dataset.ipynb notebook and contains the stock information restricted to a period of exactly 10 years.
 
 - The dataset_p1.csv file is a result of the Create_and_Merge_Twitter_Dataset.ipynb notebook and contains the stock information for Tesla along with the sentiment information, grouped by day. If sentiment information was not available for a day, a linear interpolation is done to obtain this information. 
