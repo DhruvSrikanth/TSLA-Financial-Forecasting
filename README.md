@@ -54,10 +54,10 @@ master branch/
 - README.md - contains a walkthrough of the project given in this repository.
 - Proposal folder - contains the project proposal submitted in pdf and pages format.
 - Pitch folder - contains the project pitch submitted and presented in pdf and keynote format.
-- Create_Stocks_Dataset.ipynb - notebook on time slicing done on the stock data.
-- Create_and_Merge_Twitter_Dataset.ipynb - notebook to preprocess twitter data (clean and compute sentiment of tweets) and merge with stocks data.
-- Feature_Engineering.ipynb - notebook to feature engineer columns in the dataset and explore trends between feature engineered vectors and stock information.
-- Model_Training_and_Evaluation.ipynb - notebook to train and evaluate model (both quantitatively and qualitatively)
+- Create_Stocks_Dataset.ipynb - notebook on time slicing done on the stock data. (30 lines of code)
+- Create_and_Merge_Twitter_Dataset.ipynb - notebook to preprocess twitter data (clean and compute sentiment of tweets) and merge with stocks data. (112 lines of code)
+- Feature_Engineering.ipynb - notebook to feature engineer columns in the dataset and explore trends between feature engineered vectors and stock information. (109 lines of code)
+- Model_Training_and_Evaluation.ipynb - notebook to train and evaluate model (both quantitatively and qualitatively). (172 lines of code)
 - TSLA_stock folder - contains TSLA stock data.
 - Elon_Musk_tweets - contains Elon Musk's twitter activity.
 - Bound_TSLA.csv - time sliced stock information.
@@ -137,6 +137,14 @@ The short term indicator (rsi) does provide some insights into the trend of the 
 ### Training Strategy:
 - Optimizer - [Adam](https://arxiv.org/abs/1412.6980)
 - Loss and metric - Root mean squared error ([RMSE](https://www.tensorflow.org/api_docs/python/tf/keras/metrics/RootMeanSquaredError))
+
+### Run Through:
+- First initialize the above directory structure and the relavent data files.
+- Run all cells of these notebooks in the following order - 
+	- Create_Stocks_Dataset.ipynb 
+	- Create_and_Merge_Twitter_Dataset.ipynb 
+	- Feature_Engineering.ipynb 
+	- Model_Training_and_Evaluation.ipynb 
 
 ### Results:
 Evaluation was done using RMSE.
