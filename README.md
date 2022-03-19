@@ -110,11 +110,15 @@ Features already present in the dataset were open price, day's high price, day's
 
 In order to model the effect of the sentiment of the CEO, Elon Musk's tweets, I incorporated a sentiment score for each day. Apart from this, I computed the log of the return for each day. In addition, the relative strength index ([RSI](https://www.investopedia.com/terms/r/rsi.asp)) was used as a short term indicator, moving average convergence divergence ([MACD](https://www.investopedia.com/terms/m/macd.asp))	was used as a long term indicator and the intermediate momentum was computed to be a internmediate price indicator.
 
-RSI = 100 − 100​/[1+(Average loss / Average gain)​]
+```
+RSI = 100 − 100/[1+(Average loss / Average gain)]
+```
 
 I computed the averages over 14 days to keep the RSI as a short term indicator.
 
+```
 MACD = EMA (short period) - EMA (long period)
+```
 
 For these two periods, I have chosen 20 and 200 days respectively, in order to capture a trend over the long term.
 
